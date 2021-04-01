@@ -3,7 +3,7 @@ package basics
 /**
  * App makes an object executable. The whole class body becomes main method.
  */
-object Basics extends App {
+object Main extends App {
   /**
    * Expressions
    */
@@ -93,8 +93,7 @@ object Basics extends App {
   greeter.greet("Matheus")
 
   /**
-   * Case classes
-   * Are immutable classes and compared by value instead of reference
+   * Case classes - Are immutable classes and compared by value instead of reference
    */
   case class Point(x: Int, y: Int)
 
@@ -106,8 +105,7 @@ object Basics extends App {
   println(point1 == point3)
 
   /**
-   * Objects
-   * Are single instances of their own type
+   * Objects - Are single instances of their own type
    */
   object IdFactory {
     private var counter = 0
@@ -125,8 +123,7 @@ object Basics extends App {
   println(id2)
 
   /**
-   * Traits
-   * A class in Scala can extend multiple traits
+   * Traits - Are peculiarities. A class in scala can extend multiple traits
    */
   trait Speaker {
     def speak(): Unit
