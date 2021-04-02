@@ -90,7 +90,7 @@ object Main extends App {
   }
 
   val greeter = new Greeter("Hello, ", "!")
-  greeter.greet("Matheus")
+  greeter.greet("Scala")
 
   /**
    * Case classes - Are immutable classes and compared by value instead of reference
@@ -148,9 +148,9 @@ object Main extends App {
   person.speak()
 
   val anotherPerson = new AnotherPerson()
-  anotherPerson.talk("Matheus")
+  anotherPerson.talk("Scala")
 
   val thirdPerson = new ThirdPerson()
   thirdPerson.speak()
-  thirdPerson.talk("Matheus")
+  thirdPerson.talk("Scala")
 }

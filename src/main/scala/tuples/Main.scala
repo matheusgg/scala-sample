@@ -8,7 +8,7 @@ object Main extends App {
   val ingredient = ("Sugar", 25)
   println(ingredient)
 
-  val person = ("Matheus", 28, 1.90)
+  val person = ("Scala", 28, 1.90)
   println(person._1)
   println(person._2)
   println(person._3)
