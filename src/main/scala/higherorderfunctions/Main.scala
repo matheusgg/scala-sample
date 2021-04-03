@@ -43,7 +43,7 @@ object Main extends App {
    */
   object GreeterFactory {
 
-    def construct(prefix: String, suffix: String): (String) => String = {
+    def construct(prefix: String, suffix: String): String => String = {
       (name: String) => s"$prefix$name$suffix"
     }
   }
