@@ -3,7 +3,7 @@ package forcomprehensions
 object Main extends App {
 
   /**
-   * For comprehensions - Syntax: for (generators) yield value. Ex.: for (u <- users) yield u.name
+   * For comprehensions - Syntax: for (generator1;generator2;generatorN) yield value. Ex.: for (u <- users) yield u.name
    */
   case class User(name: String, age: Int)
 
