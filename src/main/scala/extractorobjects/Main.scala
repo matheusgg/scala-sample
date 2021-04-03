@@ -16,9 +16,9 @@ object Main extends App {
     }
   }
 
-  val id = CustomerID("Scala") // Here the method apply is called
+  val id = CustomerID("Scala") // Here the apply method is called
   id match {
-    case CustomerID(name) => println(name) // Here the method unapply is called. Unapply is the inverse of apply
+    case CustomerID(name) => println(name) // Here the unapply method is called. Unapply is the inverse of apply
     case _ => println("Invalid")
   }
 

@@ -28,7 +28,7 @@ object Main extends App {
 
     import Circle._ // Companion object, importing all members and must have the same name of the class
 
-    // A class can access a private member of a companion object
+    // A class can access all private members of a companion object
     def salute(): Unit = showMessage()
   }
 
