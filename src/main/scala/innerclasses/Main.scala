@@ -18,8 +18,8 @@ object Main extends App {
       }
 
       def connectTo2(node: Graph#Node): Unit = {
-        if (!connectedNodes.exists(node.equals)) {
-          connectedNodes = node :: connectedNodes
+        if (!connectedNodes2.exists(node.equals)) {
+          connectedNodes2 = node :: connectedNodes2
         }
       }
     }
