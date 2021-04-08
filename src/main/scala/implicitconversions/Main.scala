@@ -1,6 +1,6 @@
 package implicitconversions
 
-import scala.language.implicitConversions
+import scala.language.implicitConversions // Turn off compiler warnings
 
 object Main extends App {
   /**
