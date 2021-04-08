@@ -1,5 +1,6 @@
 package annotations
 
+import java.lang.annotation.Documented
 import scala.annotation.StaticAnnotation
 import scala.reflect.runtime.universe
 
@@ -9,6 +10,7 @@ object Main extends App {
    */
   class Info(value: String) extends StaticAnnotation
 
+  @Documented
   @Info("User class")
   case class User(name: String)
 
